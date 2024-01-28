@@ -5,7 +5,7 @@ terraform {
     # Replace this with your bucket name!
     bucket         = "k8s-project-bucket-2023"
     key            = "jjtech/terraform.tfstate"
-    region         = "us-east-1"
+    region         = "ca-central-1"
 
     # Replace this with your DynamoDB table name!
     dynamodb_table = "jjtech-dynamodb"
