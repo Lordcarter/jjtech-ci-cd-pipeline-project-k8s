@@ -89,11 +89,7 @@ pipeline {
     }
     stage('Static Code Analysis') {
       environment {
-<<<<<<< HEAD
-        SONAR_URL = "http://172.31.11.90:9000/"
-=======
-        SONAR_URL = "http://172.31.2.43:9000/"
->>>>>>> 1c45c8796a4d166480985b0816d9b51d5b3eb82c
+        SONAR_URL = "http://172.31.12.145:9000/"
       }
       steps {
         withCredentials([string(credentialsId: 'sonarqube-token', variable: 'SONAR_AUTH_TOKEN')]) {

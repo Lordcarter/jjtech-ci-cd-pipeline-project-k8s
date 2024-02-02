@@ -57,19 +57,11 @@
     </site>
     <snapshotRepository>
             <id>nexus</id>
-<<<<<<< HEAD
-            <url>http://172.31.10.167:8081/repository/maven-snapshots/</url>          <!--Replace the Nexus Private IP in this line-->
+            <url>http://172.31.4.187:8081/repository/maven-snapshots/</url>          <!--Replace the Nexus Private IP in this line-->
         </snapshotRepository>
         <repository>
             <id>nexus</id>
-            <url>http://172.31.10.167:8081/repository/maven-releases/</url>           <!--Replace the Nexus Private IP in this line-->
-=======
-            <url>http://172.31.3.240:8081/repository/maven-snapshots/</url>          <!--Replace the Nexus Private IP in this line-->
-        </snapshotRepository>
-        <repository>
-            <id>nexus</id>
-            <url>http://172.31.3.240:8081/repository/maven-releases/</url>           <!--Replace the Nexus Private IP in this line-->
->>>>>>> 1c45c8796a4d166480985b0816d9b51d5b3eb82c
+            <url>http://172.31.4.187:8081/repository/maven-releases/</url>           <!--Replace the Nexus Private IP in this line-->
         </repository>
     </distributionManagement>
 
